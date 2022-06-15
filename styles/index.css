@@ -1,0 +1,527 @@
+*{
+    margin: 0px;
+}
+                        /* Navbar Starts here */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sticky{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    /* border: 1px solid red; */
+}
+
+#navbar>div{
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#categories{
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 5%;
+}
+
+#categories>a{
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid red; */
+    padding: 10px;
+    border-radius: 5px;
+    float: left;
+    display: block;
+}
+
+#categories>a:hover{
+    background-color: rgb(230, 221, 221);
+    color: black;
+    cursor: pointer;
+}
+
+#logo{
+    width: 20%;
+}
+
+#logo>img{
+    height: 32px;
+    width: 80%;
+    margin: auto;
+}
+
+#logo>img:hover{
+    cursor: pointer;
+}
+
+#options{
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-right: 5%;
+}
+
+#options>i{
+    padding: 15px;
+}
+
+#options>i:hover{
+    background-color: rgb(230, 221, 221);
+    cursor: pointer ;
+}
+                                  /* Navbar Ends Here*/
+
+                                   /* Bottom Nav Starts Here*/
+#minNav{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#minNav>div:first-child{
+    display: flex;
+    width: 58%;
+    gap: 30px;
+    align-items: center;
+}
+
+#minNav>div:first-child>p:hover{
+    color: #ff2d44 ;
+    cursor: pointer;
+}
+
+#minNav>div:last-child{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 20%;
+    height: 50px;
+}
+
+#minNav>div:last-child>input{
+    height: 85%;
+    width: 85%;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none;
+}
+                               /* Bottom Nav Ends Here*/
+
+                                /* Advertises  Starts Here*/   
+#addvertise{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 40px;
+    row-gap: 120px;
+    margin-bottom: 10%;
+    margin-top: 15%;
+}
+                 /* add 1 */
+
+/* .add1{
+    border: 1px solid black;
+} */
+
+.add1:hover{
+    cursor: pointer;
+}
+.add1>img{
+    height: 100%;
+    width: 100%;
+}
+
+                  /* add 2*/
+.add2>div:first-child{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30%;
+    line-height: 55px;
+}
+.add2>div:first-child>h1{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.add2>div:first-child>h1:hover{
+    cursor: pointer;
+}
+
+.add2>div:nth-child(2){
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.add2>div:nth-child(2)>p{
+    font-size: 30px;
+}
+
+.add2>div:nth-child(2)>p:hover{
+    cursor: pointer;
+}
+.add2>div:last-child{
+    /* border: 1px solid red; */
+    width: 20%;
+    margin: auto;
+    margin-top: 50px;
+}
+.add2>div:last-child>button{
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.add2>div:last-child>button:hover{
+    cursor: pointer;
+}
+
+                /* add 3 */
+
+/* .add3{
+    border: 1px solid black;
+} */
+.add3>div:first-child{
+    width: 50%;
+    margin: auto;
+    margin-top: 25%;
+}
+.add3>div:first-child>p{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.add3>div:nth-child(2){
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.add3>div:last-child{
+    /* border: 1px solid red; */
+    width: 20%;
+    margin: auto;
+    margin-top: 50px;
+}
+.add3>div:last-child>button{
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.add3>div:last-child>button:hover{
+    cursor: pointer;
+}
+
+.add3:hover{
+    cursor: pointer;
+}
+
+                   /* add 4 */
+
+/* .add4{
+    border: 1px solid black;
+} */
+
+.add4>img{
+    height: 100%;
+    width: 100%;
+}
+
+.add4:hover{
+    cursor: pointer;
+}
+
+                  /* add 5*/
+
+/* .add5{
+    border: 1px solid red;
+} */
+.add5>div:first-child>img{
+    height: 100%;
+    width: 100%;
+}
+
+.add5>div:last-child{
+    line-height: 30px;
+    margin-top: 2%;
+    font-size: 18px;
+    width: 85%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.add5:hover{
+    cursor: pointer;
+}
+
+           /*    Add 6 */
+
+.add6>img{
+    width: 100%;
+    height: 100% ;
+}
+
+.add6:hover{
+    cursor: pointer;
+}
+
+ /*  ---> Section 1 Starts here  ---->  */
+
+#section1{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+#newIn{
+    /* border: 1px solid red; */
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+#section1Products{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    margin-top: 5%;
+    gap: 20px;
+}
+
+/* #card1{
+    border: 1px solid red;
+} */
+
+.cardImg{
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 6%;
+    position: relative;
+}
+
+.cardImg .imgTop {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.cardImg:hover .imgTop{
+    display: inline;
+    cursor: pointer;
+}
+.cardImg>img{
+    height: 100%;
+    width: 100%;
+}
+
+.cardDetails{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    margin-left: 6%;
+}
+
+.cardDetails>p{
+    margin-top: 3%;
+}
+.cardDetails>p:first-child{
+    color: gray;
+    margin-top: 5%;
+}
+
+.cardDetails:hover{
+    cursor: pointer;
+}
+
+#section1ShopBtn{
+    /* border: 1px solid red; */
+    width: 10%;
+    margin: auto;
+    margin-top: 50px;
+}
+#section1ShopBtn>button{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#section1ShopBtn>button:hover{
+    cursor: pointer;
+}
+ /*  ---> Section 1 Ends here  ---->  */
+
+ /*  ---> Section 2 Starts here  ---->  */
+
+#section2{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.thisWeek{
+    /* border: 1px solid black; */
+    width: 30%;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    text-align: center;
+    word-spacing: 10px;
+}
+#section2Product{
+    margin-top: 40px;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+}
+
+.box{
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.box:hover{
+    cursor: pointer;
+}
+
+.boxContent{
+    margin-top: 3%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.boxContent>p{
+    margin-top: 2%;
+}
+ /*  ---> Section 2 Ends here  ---->  */
+
+ /* <!-- Section 5 Starts Here --> */
+
+ #section5{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+ }
+
+ #guid{
+    /* border: 1px solid red; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+ }
+
+ #guidContent>i{
+    padding: 20px;
+ }
+
+ #guidContent>p{
+    margin-left: 4%;
+    margin-top: 2%;
+ }
+
+ #guid:hover{
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
+ }
+
+ #footer{
+    /* border: 1px solid red; */
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.877);
+    color: white;
+    margin-top: 5%;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 30px;
+ }
+
+ #footerDiv{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    /* border: 1px solid white;   */
+    font-size: 18px;
+    width: 95%;
+    margin: auto;
+    padding-top: 30px;
+ }
+
+ #footerContent{
+    /* border: 1px solid wheat; */
+    width: 90%;
+ }
+
+ #footerContent>p{
+    margin-top: 3%;
+ }
+
+ #footerContent>p:hover{
+   cursor: pointer;
+ }
+ .social{
+    /* border: 1px solid white; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+ }
+
+ .social>i{
+    font-size: 25px;
+    gap: 20px;
+ }
+
+ .social>i:hover{
+    cursor: pointer;
+ }
+
+ #footer>div:last-child{
+    margin-left: 2%;
+    margin-top: 5%;
+    font-size: 16px;
+ }
+
+ #footer>div:last-child>p{
+    margin-top: 10px;
+ }
