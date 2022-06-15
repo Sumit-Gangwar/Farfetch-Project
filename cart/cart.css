@@ -1,0 +1,131 @@
+#box{
+    display: flex;
+    /* border:  1px solid red; */
+ }
+#shopping{
+    display: flex;
+    margin: auto;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#box1{
+    justify-content: end;
+    margin-top: 30px;
+    margin-right: 50px;
+    color: rgb(234, 226, 226);
+
+}
+
+/* Return policy */
+
+#return{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid green; */
+    margin-top: 40px;
+    background-color : rgb(246, 239, 239);
+}
+#return>div{
+    margin: 20px;
+    text-align: center;
+    width: 22%;
+}
+#return >div>p{
+     margin-top:-10px ;
+     /* color: red; */
+}
+
+svg{
+    width: 20px;
+}
+
+
+#help{
+    display: flex;
+    background-color : rgb(246, 239, 239);
+
+    margin-top: 40px;
+
+
+}
+
+#need{
+    width: 45%;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+ #call{
+    width:20%;
+    /* border: 1px solid red; */
+    /* margin-top: 20px; */
+    margin-right: 20px;
+
+ }
+#call >p{
+   width: 60%;
+}
+ #call >div{
+    display: flex;
+ }
+ #call>div>svg{
+    padding-right:10px ;
+ }
+
+#email{
+   width: 10%;
+}
+#email >div{
+    display: flex;
+    
+}
+
+#email >div>svg{
+    padding-right: 10px;
+}
+
+
+.num{
+    margin-top:-10px ;
+    margin-bottom: -10px;
+}
+
+.num+p{
+    color: rgb(97, 92, 92);
+}
+
+#main{
+    display: flex;
+
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid red; */
+}
+#checkout{
+    border-top: 1px solid rgb(168, 165, 165);
+    width: 65%;
+
+}
+#check{
+    width:25% ;
+    margin-left: 50px;
+    /* border: 1px solid black; */
+}
+
+.sub{
+     font-weight: 400;
+     margin-left: 20px;
+}
+
+#checkoutbutton{
+    width: 350px;
+    height: 50px;
+    margin: 0 ;
+    margin-left: 30px;
+    vertical-align: middle;
+    background-color: rgb(28, 28, 28);
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    
+}

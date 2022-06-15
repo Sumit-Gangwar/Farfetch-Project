@@ -1,0 +1,117 @@
+#head{
+      height: 50px;
+    border-bottom: 1px solid rgb(195, 193, 193);
+    display: flex;
+    justify-content: space-around;
+
+}
+#head>div{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+#big{
+    display: flex;
+}
+  #req{
+    margin-left: 50px;
+    margin-top: 80px;
+    width: 60%;
+    /* border: 1px solid red; */
+
+  }
+  #req2{
+    width: 25%;
+    border: 1px solid red;
+    margin-top: 50px;
+    height: 300px;
+  }
+.input
+{
+     display: flex;
+}
+.input >div{
+    margin-right: 20px;
+}
+ input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(139, 136, 136);
+    margin-bottom: 20px;
+    display: block;
+ }
+#select{
+    width: 630px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(139, 136, 136);
+}
+
+.address{
+    width: 630px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(139, 136, 136);
+}
+.input>div>select{
+    width: 300px;
+    height:40px ;
+    border-radius: 5px;
+    border: 1px solid rgb(139, 136, 136);
+}
+
+
+#checkbox{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+.billing{
+    display: flex;
+    text-align: center;
+    margin: 0;
+}
+.billing>p{
+    margin-top: 1px;
+    margin-left: 20px;
+}
+
+
+#placed{
+    width: 300px;
+    height: 50px;
+    margin: 0;
+    margin-left: 30px;
+
+    vertical-align: middle;
+    background-color: rgb(28, 28, 28);
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+svg{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.div{
+    display: flex;
+    align-items: center;
+}
+.div>h3{
+     margin-left: 10px;
+     margin-right: 10px;
+     font-weight: 100;
+     font-family: sans-serif;
+}
+
+#logo{
+    height: 30px;
+    margin: 0 250px;
+}
