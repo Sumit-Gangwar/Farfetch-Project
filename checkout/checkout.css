@@ -22,7 +22,7 @@
   }
   #req2{
     width: 25%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 50px;
     height: 300px;
   }

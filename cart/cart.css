@@ -92,13 +92,33 @@
     display: flex;
 
     width: 100%;
-    height: 250px;
+    /* height: 300px; */
     /* border: 1px solid red; */
 }
 #checkout{
+    display: block;
+    height: auto ;
     border-top: 1px solid rgb(168, 165, 165);
-    width: 65%;
+    width: 70%;
+    /* border: 2px solid green; */
 
+}
+#big{
+    display: block;
+    width: 100%;
+     margin-top: 20px;
+    /* border: 1px solid black */
+}
+#big>div{
+    margin-left: 70px;
+    margin-top: 50px;
+}
+#checkout >div{
+    /* border: 5px solid yellow; */
+    width: auto;
+    display: flex;
+    
+    height: 200px;
 }
 #check{
     width:25% ;
@@ -110,7 +130,7 @@
 
 .sub{
      font-weight: 400;
-     margin-left: 20px;
+     margin-left:5px;
 }
 
 #checkoutbutton{
@@ -125,4 +145,32 @@
     font-size: 16px;
     font-weight: 400;
     
+}
+
+
+#innerimg{
+
+    width: 15%;
+    height: 200px;
+}
+
+#subtotal{
+ display: flex;
+ justify-content: space-between;
+}
+
+#delivery{
+    display: flex;
+    justify-content: space-between;
+}
+
+#total{
+    display: flex;
+    justify-content: space-between;
+}
+
+#cross{
+    width: 30px;
+    height: 30px;
+    margin-left: 150px;
 }
