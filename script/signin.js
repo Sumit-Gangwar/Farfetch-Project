@@ -54,7 +54,7 @@ function funsignbutton()
 }
 
 function funforgetpass(event){
-     let confrimemail = prompt("Comform Your Email")
+     let confrimemail = prompt("Comfirm Your Email")
      
     let checkdata=signUpdata.find(c=>c.Email==confrimemail )
     if(checkdata===undefined)
