@@ -127,7 +127,7 @@ function call() {
   }
   let semi = document.getElementById("semi");
   let delhi = document.getElementById("delhi");
-  let x = Math.floor(Math.random(20)*40)
+  let x = Math.floor(Math.random(40)*60)
   delhi.innerText = x;
   let final = document.getElementById("finalP");
   
@@ -151,6 +151,9 @@ function remove(el, index) {
   console.log(newData);
   innerdiv.innerHTML = null;
   append(newData);
+  call();
 
 //   window.location.reload();
 }
+call();
+

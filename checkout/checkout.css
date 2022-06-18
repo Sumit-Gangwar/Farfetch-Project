@@ -115,3 +115,41 @@ svg{
     height: 30px;
     margin: 0 250px;
 }
+
+#kapda{
+    width: 35px;
+    height: 40px;
+    margin-right: 90px;
+    /* border: 1px solid red; */
+}
+
+#smalldiv{
+    display: flex;
+     /* margin: 30px; */
+   margin-top: 30px;
+}
+#product{
+   width: 60%;
+   
+  
+}
+#head{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: -5px;
+    margin-bottom: -35px;
+    border: none;
+}
+
+#delivery{
+    display: flex;
+}
+#totalprice{
+    display: flex;
+}
+#delivery1{
+    margin-left: 130px;
+}
+#price{
+    margin-left: 130px;
+}

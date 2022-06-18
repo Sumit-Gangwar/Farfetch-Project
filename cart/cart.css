@@ -114,7 +114,7 @@
     margin-top: 50px;
 }
 #checkout >div{
-    /* border: 5px solid yellow; */
+    border-bottom: 1px solid rgb(168, 165, 165);
     width: auto;
     display: flex;
     
@@ -149,9 +149,9 @@
 
 
 #innerimg{
-
+ margin-top: 10px;
     width: 15%;
-    height: 200px;
+    height: 170px;
 }
 
 #subtotal{
