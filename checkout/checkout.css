@@ -153,3 +153,49 @@ svg{
 #price{
     margin-left: 130px;
 }
+
+
+
+@media all and (max-width: 768px) {
+    
+    
+.address{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(139, 136, 136);
+}
+input{
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(139, 136, 136);
+    margin-bottom: 20px;
+    display: block;
+ }
+ #select{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(139, 136, 136);
+}
+.input>div>select{
+    width: 200px;
+    height:40px ;
+    border-radius: 5px;
+    border: 1px solid rgb(139, 136, 136);
+}
+
+#head{
+    height: 50px;
+  border-bottom: 1px solid rgb(195, 193, 193);
+  display: flex;
+  justify-content: space-around;
+
+}
+#head>div{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+  }

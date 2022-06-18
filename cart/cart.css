@@ -146,8 +146,6 @@
     font-weight: 400;
     
 }
-
-
 #innerimg{
  margin-top: 10px;
     width: 15%;
@@ -173,4 +171,34 @@
     width: 30px;
     height: 30px;
     margin-left: 150px;
+}
+#semi{
+    margin-right: 40px;
+}
+#delhi{
+    margin-right: 40px;
+   
+}
+#finalP{
+    margin-right: 40px;
+}
+#empty{
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+#shop{
+    display: flex;
+    margin: auto;
+    background-color: rgb(28, 28, 28);
+    color: white;
+    vertical-align: middle;
+  /* width: 150px;
+  height: 50px; */
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 10px 30px;
+  font-weight: 400;
+  text-align: center;
 }
