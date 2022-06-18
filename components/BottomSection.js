@@ -26,7 +26,7 @@ function appContainer(){
     <p class="text-uppercase">Email Me</p>
     <p>Enter your email and we'll send you a link to download the free app</p>
     <form action="">
-        <input class="p-4 form-control" type="email" placeholder="Email address" required>
+        <input class="form-control" type="email" placeholder="Email address" required>
         <input class="mx-2" type="submit" value="Send" id="btn">
     </form> 
 </div>
