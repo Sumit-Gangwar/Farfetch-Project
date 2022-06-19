@@ -1,38 +1,19 @@
+//importing navbar & bottomSection 
+
+import {guideSection,appContainer,aboutContainer} from "../components/BottomSection.js";
+import {navbar,navbarjs,navbarResp} from "../components/navbar.js";
+
+let nav=document.getElementById("nav").innerHTML=navbar();
+let guideContainer=document.getElementById("container-guide").innerHTML=guideSection();
+let app=document.getElementById("app").innerHTML=appContainer();
+let aboutSection=document.getElementById("about-section").innerHTML=aboutContainer();
+
+navbarjs();
+navbarResp();
 // Fetching products from localstorage, which has been stored from products page.
 let storeArr = JSON.parse(localStorage.getItem("wishlist")) || [];
 
-let data = [
-  {
-    id: 64,
-    img1: "https://cdn-images.farfetch-contents.com/18/22/54/55/18225455_38871225_1000.jpg",
-    img2: "https://cdn-images.farfetch-contents.com/18/22/54/55/18225455_38870937_1000.jpg",
-    brand: "Bottega Veneta",
-    category: "paperbag style trousers",
-    type: "clothing",
-    desc: "Congratulations: you're officially a black belt in Bottega Veneta. Meaning: you just levelled up your accessorising art to its highest with this leather belt. Well done!",
-    price: 1048,
-  },
-  {
-    id: 65,
-    img1: "https://cdn-images.farfetch-contents.com/18/54/52/25/18545225_39964126_1000.jpg",
-    img2: "https://cdn-images.farfetch-contents.com/18/54/52/25/18545225_39964119_1000.jpg",
-    brand: "Off-White",
-    category: "Caravaggio-print hoodie",
-    type: "clothing",
-    desc: "Off-White adorns this classic black hoodie with an image of one of the Italian painter Caravaggio's works. Juxtaposed on the back is the label's key identifier - the Arrow motif.",
-    price: 863,
-  },
-  {
-    id: 66,
-    img1: "https://cdn-images.farfetch-contents.com/18/14/62/22/18146222_38574918_1000.jpg",
-    img2: "https://cdn-images.farfetch-contents.com/18/14/62/22/18146222_38574925_1000.jpg",
-    brand: "Tom Wood",
-    category: "Sting organic-cotton jeans",
-    type: "watches",
-    desc: "Tom Wood's Sting denim jeans are cut for a regular fit and are crafted from GOTS certified organic cotton. This casual pair are designed sit on the natural waistline and then fall into a relaxed straight-leg.",
-    price: 278,
-  },
-];
+
 let clothing = {
   measure: `Centimeter (CM)`,
   sizeDes:
@@ -70,11 +51,13 @@ let otherSizes = {
   one: "Only one size available",
 };
 
+navbarjs();
+
 // Appending all products to the wishlist page.
 
 let display = document.querySelector("#display");
-showData(data);
-function showData() {
+showData(storeArr);
+function showData(data) {
   data.forEach((element) => {
     let small = document.createElement("div");
     small.setAttribute("class", "small");
@@ -170,25 +153,28 @@ function showSize(s, el, sizeBtn) {
 
 // function for removing product from wishlist
 function removeItem(el) {
-  data = data.filter((x) => {
+  storeArr = storeArr.filter((x) => {
     return el.id !== x.id;
   });
   display.innerHTML = null;
-  showData(data);
-  localStorage.setItem("wishlist",JSON.stringify(data));
+  showData(storeArr);
+  localStorage.setItem("wishlist",JSON.stringify(storeArr));
+  window.location.reload();
 }
 
 // function for adding product to the cart
 
 let msg = document.getElementById("alert");
-let cart = JSON.parse(localStorage.getItem("cartItem")) || [];
+let cart = JSON.parse(localStorage.getItem("cartData")) || [];
 function addItem(el) {
   cart.push(el);
-  localStorage.setItem("cartItem", JSON.stringify(cart));
-  msg.innerHTML = `<div class="alert alert-info" role="alert">
-    Product added successfully, go to <a href="#" class="alert-link">Cart</a>
-  </div>`;
-  setTimeout(() => {
-    msg.innerHTML = null;
-  }, 3000);
+  localStorage.setItem("cartData", JSON.stringify(cart));
+  window.location.reload();
+  // msg.innerHTML = `<div class="alert alert-info" role="alert">
+  //   Product added successfully, go to <a href="#" class="alert-link">Cart</a>
+  // </div>`;
+  // setTimeout(() => {
+  //   msg.innerHTML = null;
+  // }, 3000);
 }
+
