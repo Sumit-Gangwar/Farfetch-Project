@@ -49,11 +49,9 @@ The e-commerce website has the following pages and the order of flow is also the
 
 2. So there are several buttons for men , women ,kids , Wishlist , cart , nation and  login-signup.
 
-3.  after clicking on that particular button you will be redirect to that related webpage.
+3. after clicking on that particular button you will be redirect to that related webpage.
 
 4.  Near to the cart button you can find the count for how many items are there in cart and Wishlist.
-
-5. There is also one search bar space so you can search items or categories which you want. 
 
 ## Men's , Women's , Kid's parts  - 
 
@@ -179,7 +177,7 @@ You will be redirected to the sneakers page.
 
 - I've used some popular tech stack HTML, CSS, JavaScript and for CSS structuring I've used SCSS and Bootstrap to build this website.
 
-## - [@Vishall001](https://github.com/Vishall001) - 
+##  [@Vishall001](https://github.com/Vishall001) - 
 
 - In Cart I have used some basic tools like HTML CSS and JavaScript and with the help of HTML and CSS,I have given good UI to the page and with JavaScript.
 
